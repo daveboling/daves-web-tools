@@ -1,0 +1,140 @@
+@import 'compass/css3';
+
+
+/* Color Scheme 
+Windows 8 Metro Theme
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+$teal: #008299;	$light_teal: #00A0B1;
+$blue: #2672EC; $light_blue: #2E8DEF;
+$purple: #8C0095; $light_purple: #A700AE;
+$dark_purple: #5133AB; $light_dark_purple: #643EBF;
+$red: #AC193D; $light_red: #BF1E4B;
+$orange: #D24726; $light_orange: #DC572E;
+$green: #008A00; $light_green: #00A600;
+$sky_blue: #094AB2; $light_sky_blue: #0A5BC4;
+
+
+
+
+/* Mixin Section
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+
+/* Font Control */
+@mixin textStyle($fontSize, $fontWeight, $fontColor, $fontFamily) {
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	font-family: $fontFamily;
+	color: $fontColor;
+}
+
+
+div {
+	border: 0px solid black;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Headers
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+h1, h2 {
+	@include textStyle(10px, bold, black, "Arial Times New Roman");
+	padding: 5px;
+}
+
+
+
+/* Navbar 
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+.nav-static {
+	display: block;
+	/* Smartphones (portrait and landscape) ----------- */
+	@media (max-width: 40rem) {
+		display: none;
+	}
+}
+
+.navMenu {
+	display: none;
+}
+
+.slicknav_menu {
+	display: none;
+	
+	@media (max-width: 40rem) {
+		display: block;
+		width: 100%;
+	}
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
+/* Separator & Column-Fill
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+
+.separator {
+	height: 50px;
+}
+
+.col-fill {
+	height: 100%;
+}
+
+
+/* Content
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+.container-fluid {
+	height: 100%;
+	border: 1px solid black;
+}
+
+.content-area {
+	height: 100%;
+}
+
+.center-content{
+	@include textStyle(16px, bold, black, "Garamond");
+	text-align: center;
+}
+
+
+
+
+/* Footer
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+
+.footer {
+	clear: both;
+}

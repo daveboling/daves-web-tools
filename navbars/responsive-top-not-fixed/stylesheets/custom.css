@@ -1,0 +1,129 @@
+/* Color Scheme 
+Windows 8 Metro Theme
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* Mixin Section
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* Font Control */
+/* line 37, ../sass/custom.scss */
+div {
+  border: 0px solid black;
+}
+
+/* line 41, ../sass/custom.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headers
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* line 53, ../sass/custom.scss */
+h1, h2 {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Arial Times New Roman";
+  color: black;
+  padding: 5px;
+}
+
+/* Navbar 
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* line 65, ../sass/custom.scss */
+.nav-static {
+  display: block;
+  /* Smartphones (portrait and landscape) ----------- */
+}
+@media (max-width: 40rem) {
+  /* line 65, ../sass/custom.scss */
+  .nav-static {
+    display: none;
+  }
+}
+
+/* line 73, ../sass/custom.scss */
+.navMenu {
+  display: none;
+}
+
+/* line 77, ../sass/custom.scss */
+.slicknav_menu {
+  display: none;
+}
+@media (max-width: 40rem) {
+  /* line 77, ../sass/custom.scss */
+  .slicknav_menu {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* line 86, ../sass/custom.scss */
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+/* Separator & Column-Fill
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* line 101, ../sass/custom.scss */
+.separator {
+  height: 50px;
+}
+
+/* line 105, ../sass/custom.scss */
+.col-fill {
+  height: 100%;
+}
+
+/* Content
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* line 115, ../sass/custom.scss */
+.container-fluid {
+  height: 100%;
+  border: 1px solid black;
+}
+
+/* line 120, ../sass/custom.scss */
+.content-area {
+  height: 100%;
+}
+
+/* line 124, ../sass/custom.scss */
+.center-content {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Garamond";
+  color: black;
+  text-align: center;
+}
+
+/* Footer
+----------------------------
+----------------------------
+----------------------------
+----------------------------*/
+/* line 138, ../sass/custom.scss */
+.footer {
+  clear: both;
+}
