@@ -123,7 +123,6 @@ h1, h2 {
   display: inline-block;
   vertical-align: middle;
   width: 99%;
-  max-width: 550px;
   border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
