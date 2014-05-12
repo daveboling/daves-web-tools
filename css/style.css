@@ -1,0 +1,29 @@
+
+#title {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#statement{
+	text-align: left;
+}
+
+.noMysteries {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#tools {
+	width: 99%;
+	max-width: 550px;
+	border: 1px solid black;
+}
+
+.toolHead {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
