@@ -1,0 +1,165 @@
+
+h2 {
+	font-family: Garamond;
+	font-weight: bold;
+}
+
+#description {
+	width: 80%;
+	height: 100%;
+	min-width: 500px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#content {
+	width: 80%;
+	height: 100%;
+	min-width: 400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.box {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	padding: 50px;
+}
+
+/* 
+Copy and paste anything below this line to add it to your website.
+
+Things you'll need to include: 
+1. images folder with background image and handle image
+2. css folder with: jQuery UI CSS
+3. js folder with: jQuery UI Slider, jQuery, audio.js
+4. Simply add to HTML with appropriate id and classes, then profit.
+5. Profit.
+
+*/
+
+.custom {
+	width: 500px;
+	height: 40px;
+	border: 1px solid black;
+	margin: 0px auto;
+	color: white;
+	/* Created at Ultimate CSS Gradient Generator */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.custom div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+#btnPlay {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	font-size: 0.8em;
+	cursor: pointer;
+
+}
+
+
+#btnPause {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	font-size: 0.8em;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+
+/*
+#btnStop {
+	height: 35px;
+	width: 35px;
+	font-size: 1.5em;
+}
+*/
+
+#slider {
+    border: 1px solid black;
+    border-radius: 25px;  
+    width: 300px;
+    height: 7px;
+    background-color: #8e8d8d;
+    margin: 0px auto;
+}
+
+#timeEllapsed {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#volume {
+	width: 70px;
+	height: 7px;
+	display: inline-block;
+	margin: 5px;
+}
+
+
+
+
+
+
+
+/* jQuery Extended Style Controls
+
+You will need to hunt the images down to change them yourself. Sorry!
+
+Note: I have made various changes to the jQuery UI CSS file. There are
+many items that have been removed. The jQuery images folder is not included
+nor are the icons. This is to make this a tad less daunting should you want
+to style yours based off of mine.
+
+Hint: If you have jQuery UI on your website, just make sure the
+selectors below are not overwritten in the jQueryUI CSS.
+
+*/
+
+
+/* Slider Background */
+.ui-widget-content {
+	background: #FFDBDB url("../images/ui-bg.png") 50% 50% repeat;
+}
+
+
+/* Slider Handle Image */
+.ui-slider .ui-slider-handle {
+	background: #222222 url("../images/handle3.png") 50% 50% repeat-x;
+	border: 2px solid white;
+}
+
+/* Slider Handle Size */
+.ui-slider .ui-slider-handle {
+	width: 8px;
+	height: 8px;
+}
+
+/* Slider Range Color - The color to the left of the handle
+*/
+.ui-slider .ui-slider-range {
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#eaeaea));
+    background:-webkit-linear-gradient(#FFFFFF 0%, #eaeaea 100%);
+    background:-moz-linear-gradient(#FFFFFF 0%, #eaeaea 100%);
+    background:-o-linear-gradient(#FFFFFF 0%, #eaeaea 100%);
+    background:linear-gradient(#FFFFFF 0%, #eaeaea 100%);
+    background-color: white;
+}
+
+
+
