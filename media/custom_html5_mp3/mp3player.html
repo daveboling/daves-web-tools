@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML 5 Audio Player</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-slider.js"></script>
+<script src="js/audio.js"></script>
+
+<body>
+
+	<div id="description">Custom HTML 5 Audio Player Template<br />
+		Using Vanilla JavaScript, and jQuery UI for slider bars<br />
+	<b>Note:</b> <em>Some browsers do not play MP3s, so I've included OGG format as well.</em> <br />
+
+	<a href="../../index.html">...go back to home page</a>
+
+
+</div>
+
+
+
+	<div id="content">
+
+
+	<!-- 
+		The audio tag below requires an id so that when we're referring to it in our JavaScript, we know what it's called. Keep that in mind.
+
+		If you are having trouble getting this to work with other browsers, try including a different audio format such as .ogg or whatever else is supported by <audio>.
+	-->
+
+	<div class="box">
+		<h2>Custom MP3 Player - Pure HTML/JavaScript - jQuery UI</h2>
+
+		<div class="custom">
+			<audio id="player" preload="auto">
+				<source src="audio/song.mp3" type="audio/mpeg" />
+				<source src="audio/song.ogg" type="audio/ogg" />
+			</audio>
+
+			<div id="btnPlay"><i class="fa fa-play"></i></div>
+			<div id="btnPause"><i class="fa fa-pause"></i></div>
+			<!--<div id="btnStop">■</div>-->
+			<div id="slider"></div>
+			<div id="timeEllapsed" >0:00</div>
+			<div class="vol"><i class="fa fa-signal"></i></div>
+			<div id="volume"></div>
+		</div>
+		
+	</div>
+
+
+	<div id="footer">Created by Dave Boling, 2014</div>
+
+
+
+	</div>
+
+	
+	
+</body>
+</html>
