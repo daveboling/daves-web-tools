@@ -103,7 +103,7 @@ h1, h2 {
   text-align: center;
 }
 
-#promo {
+#home {
   height: 100%;
   background-image: url("../images/promo.jpeg");
   background-position: center;
@@ -112,14 +112,14 @@ h1, h2 {
   text-align: center;
   position: relative;
 }
-#promo:before {
+#home:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
   margin-right: -0.25em;
 }
-#promo .promo_samples {
+#home .promo_samples {
   display: inline-block;
   vertical-align: middle;
   width: 99%;
